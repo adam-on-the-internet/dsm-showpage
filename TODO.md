@@ -1,6 +1,7 @@
 # DSM Showpage TODO
 
-- Start Site
+- Start Site w/ React
+- Temp Host
 - Get Domain
 - Build Homepage
 - Build Show Submission
