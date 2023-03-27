@@ -1,9 +1,10 @@
 # DSM Showpage TODO
 
-- Start Site w/ React
-- Temp Host
-- Get Domain
-- Build Homepage
+[x] Start site w/ React & next.js
+[x] Deploy blank site on Netlify
+[] Get domain name, setup on Netlify
+- Build Homepage with test data
+- Establish initial service on ? (need to pick non-Heroku server)
 - Build Show Submission
 - Build Show Display
 - "About" Page

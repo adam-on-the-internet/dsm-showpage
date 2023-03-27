@@ -1,6 +1,9 @@
 # DSM Showpage
 
 - Based on https://stlshowpage.com/
+- Currently hosted at https://jazzy-faloodeh-55af6b.netlify.app/
+
+## About Next.js
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
