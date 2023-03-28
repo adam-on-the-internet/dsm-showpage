@@ -1,5 +1,3 @@
-import AllShows from "./all-shows.component";
-
 export default function Welcome() {
   return (
     <>
