@@ -4,6 +4,7 @@
 [x] Deploy blank site on Netlify
 [] Get domain name, setup on Netlify
 - Build Homepage with test data
+- Header / Footer
 - Add styling
 - Establish initial service on ? (need to pick non-Heroku server)
 - Build Show Submission

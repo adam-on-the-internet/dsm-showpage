@@ -9,11 +9,9 @@ export default function AllShows() {
       <h2>All Shows</h2>
       <p>Showing all {shows.length} show(s)...</p>
       {shows.map((show) => (
-        <>
-          <div key={show.id}>
-            <Show {...show} />
-          </div>
-        </>
+        <div key={show.id}>
+          <Show {...show} />
+        </div>
       ))}
     </>
   );

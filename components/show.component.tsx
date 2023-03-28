@@ -8,6 +8,7 @@ export default function Show(props: any) {
   // TODO show event link
   // TODO show genres, etc
   // TODO link to flyer
+  const jointLineup = props.lineup.join(", ");
   return (
     <>
       <hr />
@@ -16,11 +17,7 @@ export default function Show(props: any) {
       </p>
       <p>
         <span>
-          {props.lineup.map((act: string) => (
-            <>
-              <span key={act}>{act}</span>
-            </>
-          ))}
+          {jointLineup}{" "}
         </span>
         <span>@ {props.venue}</span>
       </p>
