@@ -1,9 +1,9 @@
-import Head from 'next/head'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
-import Welcome from '@/components/welcome.component'
+import Head from "next/head";
+import { Inter } from "next/font/google";
+import styles from "@/styles/Home.module.css";
+import Dashboard from "@/components/dashboard.component";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -16,9 +16,9 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <Welcome />
+          <Dashboard />
         </div>
       </main>
     </>
-  )
+  );
 }

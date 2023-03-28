@@ -6,14 +6,9 @@ export default function Welcome() {
       <h1>Des Moines Showpage</h1>
       <p>Welcome to Des Moines Showpage.</p>
       <p>
-        Based off of
-        <a href="https://stlshowpage.com/" target="_blank">
-          St Louis Showpage
-        </a>
+        Based off of <a href="https://stlshowpage.com/" target="_blank">St Louis Showpage</a>
       </p>
       <p>More coming soon...</p>
-      <br />
-      <AllShows />
     </>
   );
 }

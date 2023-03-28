@@ -7,7 +7,7 @@ export default function AllShows() {
   return (
     <>
       <h2>All Shows</h2>
-      <p>All of the shows:</p>
+      <p>Showing all {shows.length} show(s)...</p>
       {shows.map((show) => (
         <Show {...show} />
       ))}
